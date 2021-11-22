@@ -1,0 +1,190 @@
+================================================================											================================================================
+=======================================================================											=======================================================================
+======       Pre-compound/De-excitation Physics Parameters     ========											======       Pre-compound/De-excitation Physics Parameters     ========
+=======================================================================											=======================================================================
+Type of pre-compound inverse x-section              3													Type of pre-compound inverse x-section              3
+Pre-compound model active                           1													Pre-compound model active                           1
+Pre-compound excitation low energy (MeV)            0.1													Pre-compound excitation low energy (MeV)            0.1
+Pre-compound excitation high energy (MeV)           30													Pre-compound excitation high energy (MeV)           30
+Type of de-excitation inverse x-section             3													Type of de-excitation inverse x-section             3
+Type of de-excitation factory                       Evaporation+GEM											Type of de-excitation factory                       Evaporation+GEM
+Number of de-excitation channels                    68													Number of de-excitation channels                    68
+Min excitation energy (keV)                         0.01												Min excitation energy (keV)                         0.01
+Min energy per nucleon for multifragmentation (MeV) 2e+05												Min energy per nucleon for multifragmentation (MeV) 2e+05
+Limit excitation energy for Fermi BreakUp (MeV)     20													Limit excitation energy for Fermi BreakUp (MeV)     20
+Level density (1/MeV)                               0.075												Level density (1/MeV)                               0.075
+Use simple level density model                      1													Use simple level density model                      1
+Use discrete excitation energy of the residual      0													Use discrete excitation energy of the residual      0
+Time limit for long lived isomeres (ns)             1													Time limit for long lived isomeres (ns)             1
+Isomer production flag                              1													Isomer production flag                              1
+Internal e- conversion flag                         1													Internal e- conversion flag                         1
+Store e- internal conversion data                   0													Store e- internal conversion data                   0
+Electron internal conversion ID                     2													Electron internal conversion ID                     2
+Correlated gamma emission flag                      0													Correlated gamma emission flag                      0
+Max 2J for sampling of angular correlations         10													Max 2J for sampling of angular correlations         10
+=======================================================================											=======================================================================
+																		     |	G4VisManager: Using G4TrajectoryDrawByCharge as fallback trajectory model.
+																		     >	See commands in /vis/modeling/trajectories/ for other options.
+																		     >	000000000000000000000000000000000000000000000000000000000000000
+																		     >	                             begin run
+																		     >	000000000000000000000000000000000000000000000000000000000000000
+
+*********************************************************************************************************						*********************************************************************************************************
+* G4Track Information:   Particle = geantino,   Track ID = 1,   Parent ID = 0										* G4Track Information:   Particle = geantino,   Track ID = 1,   Parent ID = 0
+*********************************************************************************************************						*********************************************************************************************************
+
+Step#    X(mm)    Y(mm)    Z(mm) KinE(MeV)  dE(MeV) StepLeng TrackLeng  NextVolume ProcName								Step#    X(mm)    Y(mm)    Z(mm) KinE(MeV)  dE(MeV) StepLeng TrackLeng  NextVolume ProcName
+    0        0        0     -650        20        0        0         0       world initStep							     |	    0        0        0     -650        20        0        0         0 PhysVol_World initStep
+    1        0        0      350        20        0    1e+03     1e+03        vxyz Transportation						     |	    1        0        0      350        20        0    1e+03     1e+03 PhysVol_PixElmts Transportation
+    2        0        0      352        20        0        2     1e+03        vxyz Transportation						     |	    2        0        0      352        20        0        2     1e+03 PhysVol_PixElmts Transportation
+    3        0        0      354        20        0        2     1e+03        vxyz Transportation						     |	    3        0        0      354        20        0        2     1e+03 PhysVol_PixElmts Transportation
+    4        0        0      356        20        0        2  1.01e+03        vxyz Transportation						     |	    4        0        0      356        20        0        2  1.01e+03 PhysVol_PixElmts Transportation
+    5        0        0      358        20        0        2  1.01e+03        vxyz Transportation						     |	    5        0        0      358        20        0        2  1.01e+03 PhysVol_PixElmts Transportation
+    6        0        0      360        20        0        2  1.01e+03        vxyz Transportation						     |	    6        0        0      360        20        0        2  1.01e+03 PhysVol_PixElmts Transportation
+    7        0        0      362        20        0        2  1.01e+03        vxyz Transportation						     |	    7        0        0      362        20        0        2  1.01e+03 PhysVol_PixElmts Transportation
+    8        0        0      364        20        0        2  1.01e+03        vxyz Transportation						     |	    8        0        0      364        20        0        2  1.01e+03 PhysVol_PixElmts Transportation
+    9        0        0      366        20        0        2  1.02e+03        vxyz Transportation						     |	    9        0        0      366        20        0        2  1.02e+03 PhysVol_PixElmts Transportation
+   10        0        0      368        20        0        2  1.02e+03        vxyz Transportation						     |	   10        0        0      368        20        0        2  1.02e+03 PhysVol_PixElmts Transportation
+   11        0        0      370        20        0        2  1.02e+03        vxyz Transportation						     |	   11        0        0      370        20        0        2  1.02e+03 PhysVol_PixElmts Transportation
+   12        0        0      372        20        0        2  1.02e+03        vxyz Transportation						     |	   12        0        0      372        20        0        2  1.02e+03 PhysVol_PixElmts Transportation
+   13        0        0      374        20        0        2  1.02e+03        vxyz Transportation						     |	   13        0        0      374        20        0        2  1.02e+03 PhysVol_PixElmts Transportation
+   14        0        0      376        20        0        2  1.03e+03        vxyz Transportation						     |	   14        0        0      376        20        0        2  1.03e+03 PhysVol_PixElmts Transportation
+   15        0        0      378        20        0        2  1.03e+03        vxyz Transportation						     |	   15        0        0      378        20        0        2  1.03e+03 PhysVol_PixElmts Transportation
+   16        0        0      380        20        0        2  1.03e+03        vxyz Transportation						     |	   16        0        0      380        20        0        2  1.03e+03 PhysVol_PixElmts Transportation
+   17        0        0      382        20        0        2  1.03e+03        vxyz Transportation						     |	   17        0        0      382        20        0        2  1.03e+03 PhysVol_PixElmts Transportation
+   18        0        0      384        20        0        2  1.03e+03        vxyz Transportation						     |	   18        0        0      384        20        0        2  1.03e+03 PhysVol_PixElmts Transportation
+   19        0        0      386        20        0        2  1.04e+03        vxyz Transportation						     |	   19        0        0      386        20        0        2  1.04e+03 PhysVol_PixElmts Transportation
+   20        0        0      388        20        0        2  1.04e+03        vxyz Transportation						     |	   20        0        0      388        20        0        2  1.04e+03 PhysVol_PixElmts Transportation
+   21        0        0      390        20        0        2  1.04e+03        vxyz Transportation						     |	   21        0        0      390        20        0        2  1.04e+03 PhysVol_PixElmts Transportation
+   22        0        0      392        20        0        2  1.04e+03        vxyz Transportation						     |	   22        0        0      392        20        0        2  1.04e+03 PhysVol_PixElmts Transportation
+   23        0        0      394        20        0        2  1.04e+03        vxyz Transportation						     |	   23        0        0      394        20        0        2  1.04e+03 PhysVol_PixElmts Transportation
+   24        0        0      396        20        0        2  1.05e+03        vxyz Transportation						     |	   24        0        0      396        20        0        2  1.05e+03 PhysVol_PixElmts Transportation
+   25        0        0      398        20        0        2  1.05e+03        vxyz Transportation						     |	   25        0        0      398        20        0        2  1.05e+03 PhysVol_PixElmts Transportation
+   26        0        0      400        20        0        2  1.05e+03        vxyz Transportation						     |	   26        0        0      400        20        0        2  1.05e+03 PhysVol_PixElmts Transportation
+   27        0        0      402        20        0        2  1.05e+03        vxyz Transportation						     |	   27        0        0      402        20        0        2  1.05e+03 PhysVol_PixElmts Transportation
+   28        0        0      404        20        0        2  1.05e+03        vxyz Transportation						     |	   28        0        0      404        20        0        2  1.05e+03 PhysVol_PixElmts Transportation
+   29        0        0      406        20        0        2  1.06e+03        vxyz Transportation						     |	   29        0        0      406        20        0        2  1.06e+03 PhysVol_PixElmts Transportation
+   30        0        0      408        20        0        2  1.06e+03        vxyz Transportation						     |	   30        0        0      408        20        0        2  1.06e+03 PhysVol_PixElmts Transportation
+   31        0        0      410        20        0        2  1.06e+03        vxyz Transportation						     |	   31        0        0      410        20        0        2  1.06e+03 PhysVol_PixElmts Transportation
+   32        0        0      412        20        0        2  1.06e+03        vxyz Transportation						     |	   32        0        0      412        20        0        2  1.06e+03 PhysVol_PixElmts Transportation
+   33        0        0      414        20        0        2  1.06e+03        vxyz Transportation						     |	   33        0        0      414        20        0        2  1.06e+03 PhysVol_PixElmts Transportation
+   34        0        0      416        20        0        2  1.07e+03        vxyz Transportation						     |	   34        0        0      416        20        0        2  1.07e+03 PhysVol_PixElmts Transportation
+   35        0        0      418        20        0        2  1.07e+03        vxyz Transportation						     |	   35        0        0      418        20        0        2  1.07e+03 PhysVol_PixElmts Transportation
+   36        0        0      420        20        0        2  1.07e+03        vxyz Transportation						     |	   36        0        0      420        20        0        2  1.07e+03 PhysVol_PixElmts Transportation
+   37        0        0      422        20        0        2  1.07e+03        vxyz Transportation						     |	   37        0        0      422        20        0        2  1.07e+03 PhysVol_PixElmts Transportation
+   38        0        0      424        20        0        2  1.07e+03        vxyz Transportation						     |	   38        0        0      424        20        0        2  1.07e+03 PhysVol_PixElmts Transportation
+   39        0        0      426        20        0        2  1.08e+03        vxyz Transportation						     |	   39        0        0      426        20        0        2  1.08e+03 PhysVol_PixElmts Transportation
+   40        0        0      428        20        0        2  1.08e+03        vxyz Transportation						     |	   40        0        0      428        20        0        2  1.08e+03 PhysVol_PixElmts Transportation
+   41        0        0      430        20        0        2  1.08e+03        vxyz Transportation						     |	   41        0        0      430        20        0        2  1.08e+03 PhysVol_PixElmts Transportation
+   42        0        0      432        20        0        2  1.08e+03        vxyz Transportation						     |	   42        0        0      432        20        0        2  1.08e+03 PhysVol_PixElmts Transportation
+   43        0        0      434        20        0        2  1.08e+03        vxyz Transportation						     |	   43        0        0      434        20        0        2  1.08e+03 PhysVol_PixElmts Transportation
+   44        0        0      436        20        0        2  1.09e+03        vxyz Transportation						     |	   44        0        0      436        20        0        2  1.09e+03 PhysVol_PixElmts Transportation
+   45        0        0      438        20        0        2  1.09e+03        vxyz Transportation						     |	   45        0        0      438        20        0        2  1.09e+03 PhysVol_PixElmts Transportation
+   46        0        0      440        20        0        2  1.09e+03        vxyz Transportation						     |	   46        0        0      440        20        0        2  1.09e+03 PhysVol_PixElmts Transportation
+   47        0        0      442        20        0        2  1.09e+03        vxyz Transportation						     |	   47        0        0      442        20        0        2  1.09e+03 PhysVol_PixElmts Transportation
+   48        0        0      444        20        0        2  1.09e+03        vxyz Transportation						     |	   48        0        0      444        20        0        2  1.09e+03 PhysVol_PixElmts Transportation
+   49        0        0      446        20        0        2   1.1e+03        vxyz Transportation						     |	   49        0        0      446        20        0        2   1.1e+03 PhysVol_PixElmts Transportation
+   50        0        0      448        20        0        2   1.1e+03        vxyz Transportation						     |	   50        0        0      448        20        0        2   1.1e+03 PhysVol_PixElmts Transportation
+   51        0        0      450        20        0        2   1.1e+03        vxyz Transportation						     |	   51        0        0      450        20        0        2   1.1e+03 PhysVol_PixElmts Transportation
+   52        0        0      452        20        0        2   1.1e+03        vxyz Transportation						     |	   52        0        0      452        20        0        2   1.1e+03 PhysVol_PixElmts Transportation
+   53        0        0      454        20        0        2   1.1e+03        vxyz Transportation						     |	   53        0        0      454        20        0        2   1.1e+03 PhysVol_PixElmts Transportation
+   54        0        0      456        20        0        2  1.11e+03        vxyz Transportation						     |	   54        0        0      456        20        0        2  1.11e+03 PhysVol_PixElmts Transportation
+   55        0        0      458        20        0        2  1.11e+03        vxyz Transportation						     |	   55        0        0      458        20        0        2  1.11e+03 PhysVol_PixElmts Transportation
+   56        0        0      460        20        0        2  1.11e+03        vxyz Transportation						     |	   56        0        0      460        20        0        2  1.11e+03 PhysVol_PixElmts Transportation
+   57        0        0      462        20        0        2  1.11e+03        vxyz Transportation						     |	   57        0        0      462        20        0        2  1.11e+03 PhysVol_PixElmts Transportation
+   58        0        0      464        20        0        2  1.11e+03        vxyz Transportation						     |	   58        0        0      464        20        0        2  1.11e+03 PhysVol_PixElmts Transportation
+   59        0        0      466        20        0        2  1.12e+03        vxyz Transportation						     |	   59        0        0      466        20        0        2  1.12e+03 PhysVol_PixElmts Transportation
+   60        0        0      468        20        0        2  1.12e+03        vxyz Transportation						     |	   60        0        0      468        20        0        2  1.12e+03 PhysVol_PixElmts Transportation
+   61        0        0      470        20        0        2  1.12e+03        vxyz Transportation						     |	   61        0        0      470        20        0        2  1.12e+03 PhysVol_PixElmts Transportation
+   62        0        0      472        20        0        2  1.12e+03        vxyz Transportation						     |	   62        0        0      472        20        0        2  1.12e+03 PhysVol_PixElmts Transportation
+   63        0        0      474        20        0        2  1.12e+03        vxyz Transportation						     |	   63        0        0      474        20        0        2  1.12e+03 PhysVol_PixElmts Transportation
+   64        0        0      476        20        0        2  1.13e+03        vxyz Transportation						     |	   64        0        0      476        20        0        2  1.13e+03 PhysVol_PixElmts Transportation
+   65        0        0      478        20        0        2  1.13e+03        vxyz Transportation						     |	   65        0        0      478        20        0        2  1.13e+03 PhysVol_PixElmts Transportation
+   66        0        0      480        20        0        2  1.13e+03        vxyz Transportation						     |	   66        0        0      480        20        0        2  1.13e+03 PhysVol_PixElmts Transportation
+   67        0        0      482        20        0        2  1.13e+03        vxyz Transportation						     |	   67        0        0      482        20        0        2  1.13e+03 PhysVol_PixElmts Transportation
+   68        0        0      484        20        0        2  1.13e+03        vxyz Transportation						     |	   68        0        0      484        20        0        2  1.13e+03 PhysVol_PixElmts Transportation
+   69        0        0      486        20        0        2  1.14e+03        vxyz Transportation						     |	   69        0        0      486        20        0        2  1.14e+03 PhysVol_PixElmts Transportation
+   70        0        0      488        20        0        2  1.14e+03        vxyz Transportation						     |	   70        0        0      488        20        0        2  1.14e+03 PhysVol_PixElmts Transportation
+   71        0        0      490        20        0        2  1.14e+03        vxyz Transportation						     |	   71        0        0      490        20        0        2  1.14e+03 PhysVol_PixElmts Transportation
+   72        0        0      492        20        0        2  1.14e+03        vxyz Transportation						     |	   72        0        0      492        20        0        2  1.14e+03 PhysVol_PixElmts Transportation
+   73        0        0      494        20        0        2  1.14e+03        vxyz Transportation						     |	   73        0        0      494        20        0        2  1.14e+03 PhysVol_PixElmts Transportation
+   74        0        0      496        20        0        2  1.15e+03        vxyz Transportation						     |	   74        0        0      496        20        0        2  1.15e+03 PhysVol_PixElmts Transportation
+   75        0        0      498        20        0        2  1.15e+03        vxyz Transportation						     |	   75        0        0      498        20        0        2  1.15e+03 PhysVol_PixElmts Transportation
+   76        0        0      500        20        0        2  1.15e+03        vxyz Transportation						     |	   76        0        0      500        20        0        2  1.15e+03 PhysVol_PixElmts Transportation
+   77        0        0      502        20        0        2  1.15e+03        vxyz Transportation						     |	   77        0        0      502        20        0        2  1.15e+03 PhysVol_PixElmts Transportation
+   78        0        0      504        20        0        2  1.15e+03        vxyz Transportation						     |	   78        0        0      504        20        0        2  1.15e+03 PhysVol_PixElmts Transportation
+   79        0        0      506        20        0        2  1.16e+03        vxyz Transportation						     |	   79        0        0      506        20        0        2  1.16e+03 PhysVol_PixElmts Transportation
+   80        0        0      508        20        0        2  1.16e+03        vxyz Transportation						     |	   80        0        0      508        20        0        2  1.16e+03 PhysVol_PixElmts Transportation
+   81        0        0      510        20        0        2  1.16e+03        vxyz Transportation						     |	   81        0        0      510        20        0        2  1.16e+03 PhysVol_PixElmts Transportation
+   82        0        0      512        20        0        2  1.16e+03        vxyz Transportation						     |	   82        0        0      512        20        0        2  1.16e+03 PhysVol_PixElmts Transportation
+   83        0        0      514        20        0        2  1.16e+03        vxyz Transportation						     |	   83        0        0      514        20        0        2  1.16e+03 PhysVol_PixElmts Transportation
+   84        0        0      516        20        0        2  1.17e+03        vxyz Transportation						     |	   84        0        0      516        20        0        2  1.17e+03 PhysVol_PixElmts Transportation
+   85        0        0      518        20        0        2  1.17e+03        vxyz Transportation						     |	   85        0        0      518        20        0        2  1.17e+03 PhysVol_PixElmts Transportation
+   86        0        0      520        20        0        2  1.17e+03        vxyz Transportation						     |	   86        0        0      520        20        0        2  1.17e+03 PhysVol_PixElmts Transportation
+   87        0        0      522        20        0        2  1.17e+03        vxyz Transportation						     |	   87        0        0      522        20        0        2  1.17e+03 PhysVol_PixElmts Transportation
+   88        0        0      524        20        0        2  1.17e+03        vxyz Transportation						     |	   88        0        0      524        20        0        2  1.17e+03 PhysVol_PixElmts Transportation
+   89        0        0      526        20        0        2  1.18e+03        vxyz Transportation						     |	   89        0        0      526        20        0        2  1.18e+03 PhysVol_PixElmts Transportation
+   90        0        0      528        20        0        2  1.18e+03        vxyz Transportation						     |	   90        0        0      528        20        0        2  1.18e+03 PhysVol_PixElmts Transportation
+   91        0        0      530        20        0        2  1.18e+03        vxyz Transportation						     |	   91        0        0      530        20        0        2  1.18e+03 PhysVol_PixElmts Transportation
+   92        0        0      532        20        0        2  1.18e+03        vxyz Transportation						     |	   92        0        0      532        20        0        2  1.18e+03 PhysVol_PixElmts Transportation
+   93        0        0      534        20        0        2  1.18e+03        vxyz Transportation						     |	   93        0        0      534        20        0        2  1.18e+03 PhysVol_PixElmts Transportation
+   94        0        0      536        20        0        2  1.19e+03        vxyz Transportation						     |	   94        0        0      536        20        0        2  1.19e+03 PhysVol_PixElmts Transportation
+   95        0        0      538        20        0        2  1.19e+03        vxyz Transportation						     |	   95        0        0      538        20        0        2  1.19e+03 PhysVol_PixElmts Transportation
+   96        0        0      540        20        0        2  1.19e+03        vxyz Transportation						     |	   96        0        0      540        20        0        2  1.19e+03 PhysVol_PixElmts Transportation
+   97        0        0      542        20        0        2  1.19e+03        vxyz Transportation						     |	   97        0        0      542        20        0        2  1.19e+03 PhysVol_PixElmts Transportation
+   98        0        0      544        20        0        2  1.19e+03        vxyz Transportation						     |	   98        0        0      544        20        0        2  1.19e+03 PhysVol_PixElmts Transportation
+   99        0        0      546        20        0        2   1.2e+03        vxyz Transportation						     |	   99        0        0      546        20        0        2   1.2e+03 PhysVol_PixElmts Transportation
+  100        0        0      548        20        0        2   1.2e+03        vxyz Transportation						     |	  100        0        0      548        20        0        2   1.2e+03 PhysVol_PixElmts Transportation
+  101        0        0      550        20        0        2   1.2e+03        vxyz Transportation						     |	  101        0        0      550        20        0        2   1.2e+03 PhysVol_PixElmts Transportation
+  102        0        0      552        20        0        2   1.2e+03        vxyz Transportation						     |	  102        0        0      552        20        0        2   1.2e+03 PhysVol_PixElmts Transportation
+  103        0        0      554        20        0        2   1.2e+03        vxyz Transportation						     |	  103        0        0      554        20        0        2   1.2e+03 PhysVol_PixElmts Transportation
+  104        0        0      556        20        0        2  1.21e+03        vxyz Transportation						     |	  104        0        0      556        20        0        2  1.21e+03 PhysVol_PixElmts Transportation
+  105        0        0      558        20        0        2  1.21e+03        vxyz Transportation						     |	  105        0        0      558        20        0        2  1.21e+03 PhysVol_PixElmts Transportation
+  106        0        0      560        20        0        2  1.21e+03        vxyz Transportation						     |	  106        0        0      560        20        0        2  1.21e+03 PhysVol_PixElmts Transportation
+  107        0        0      562        20        0        2  1.21e+03        vxyz Transportation						     |	  107        0        0      562        20        0        2  1.21e+03 PhysVol_PixElmts Transportation
+  108        0        0      564        20        0        2  1.21e+03        vxyz Transportation						     |	  108        0        0      564        20        0        2  1.21e+03 PhysVol_PixElmts Transportation
+  109        0        0      566        20        0        2  1.22e+03        vxyz Transportation						     |	  109        0        0      566        20        0        2  1.22e+03 PhysVol_PixElmts Transportation
+  110        0        0      568        20        0        2  1.22e+03        vxyz Transportation						     |	  110        0        0      568        20        0        2  1.22e+03 PhysVol_PixElmts Transportation
+  111        0        0      570        20        0        2  1.22e+03        vxyz Transportation						     |	  111        0        0      570        20        0        2  1.22e+03 PhysVol_PixElmts Transportation
+  112        0        0      572        20        0        2  1.22e+03        vxyz Transportation						     |	  112        0        0      572        20        0        2  1.22e+03 PhysVol_PixElmts Transportation
+  113        0        0      574        20        0        2  1.22e+03        vxyz Transportation						     |	  113        0        0      574        20        0        2  1.22e+03 PhysVol_PixElmts Transportation
+  114        0        0      576        20        0        2  1.23e+03        vxyz Transportation						     |	  114        0        0      576        20        0        2  1.23e+03 PhysVol_PixElmts Transportation
+  115        0        0      578        20        0        2  1.23e+03        vxyz Transportation						     |	  115        0        0      578        20        0        2  1.23e+03 PhysVol_PixElmts Transportation
+  116        0        0      580        20        0        2  1.23e+03        vxyz Transportation						     |	  116        0        0      580        20        0        2  1.23e+03 PhysVol_PixElmts Transportation
+  117        0        0      582        20        0        2  1.23e+03        vxyz Transportation						     |	  117        0        0      582        20        0        2  1.23e+03 PhysVol_PixElmts Transportation
+  118        0        0      584        20        0        2  1.23e+03        vxyz Transportation						     |	  118        0        0      584        20        0        2  1.23e+03 PhysVol_PixElmts Transportation
+  119        0        0      586        20        0        2  1.24e+03        vxyz Transportation						     |	  119        0        0      586        20        0        2  1.24e+03 PhysVol_PixElmts Transportation
+  120        0        0      588        20        0        2  1.24e+03        vxyz Transportation						     |	  120        0        0      588        20        0        2  1.24e+03 PhysVol_PixElmts Transportation
+  121        0        0      590        20        0        2  1.24e+03        vxyz Transportation						     |	  121        0        0      590        20        0        2  1.24e+03 PhysVol_PixElmts Transportation
+  122        0        0      592        20        0        2  1.24e+03        vxyz Transportation						     |	  122        0        0      592        20        0        2  1.24e+03 PhysVol_PixElmts Transportation
+  123        0        0      594        20        0        2  1.24e+03        vxyz Transportation						     |	  123        0        0      594        20        0        2  1.24e+03 PhysVol_PixElmts Transportation
+  124        0        0      596        20        0        2  1.25e+03        vxyz Transportation						     |	  124        0        0      596        20        0        2  1.25e+03 PhysVol_PixElmts Transportation
+  125        0        0      598        20        0        2  1.25e+03        vxyz Transportation						     |	  125        0        0      598        20        0        2  1.25e+03 PhysVol_PixElmts Transportation
+  126        0        0      600        20        0        2  1.25e+03        vxyz Transportation						     |	  126        0        0      600        20        0        2  1.25e+03 PhysVol_PixElmts Transportation
+  127        0        0      602        20        0        2  1.25e+03        vxyz Transportation						     |	  127        0        0      602        20        0        2  1.25e+03 PhysVol_PixElmts Transportation
+  128        0        0      604        20        0        2  1.25e+03        vxyz Transportation						     |	  128        0        0      604        20        0        2  1.25e+03 PhysVol_PixElmts Transportation
+  129        0        0      606        20        0        2  1.26e+03        vxyz Transportation						     |	  129        0        0      606        20        0        2  1.26e+03 PhysVol_PixElmts Transportation
+  130        0        0      608        20        0        2  1.26e+03        vxyz Transportation						     |	  130        0        0      608        20        0        2  1.26e+03 PhysVol_PixElmts Transportation
+  131        0        0      610        20        0        2  1.26e+03        vxyz Transportation						     |	  131        0        0      610        20        0        2  1.26e+03 PhysVol_PixElmts Transportation
+  132        0        0      612        20        0        2  1.26e+03        vxyz Transportation						     |	  132        0        0      612        20        0        2  1.26e+03 PhysVol_PixElmts Transportation
+  133        0        0      614        20        0        2  1.26e+03        vxyz Transportation						     |	  133        0        0      614        20        0        2  1.26e+03 PhysVol_PixElmts Transportation
+  134        0        0      616        20        0        2  1.27e+03        vxyz Transportation						     |	  134        0        0      616        20        0        2  1.27e+03 PhysVol_PixElmts Transportation
+  135        0        0      618        20        0        2  1.27e+03        vxyz Transportation						     |	  135        0        0      618        20        0        2  1.27e+03 PhysVol_PixElmts Transportation
+  136        0        0      620        20        0        2  1.27e+03        vxyz Transportation						     |	  136        0        0      620        20        0        2  1.27e+03 PhysVol_PixElmts Transportation
+  137        0        0      622        20        0        2  1.27e+03        vxyz Transportation						     |	  137        0        0      622        20        0        2  1.27e+03 PhysVol_PixElmts Transportation
+  138        0        0      624        20        0        2  1.27e+03        vxyz Transportation						     |	  138        0        0      624        20        0        2  1.27e+03 PhysVol_PixElmts Transportation
+  139        0        0      626        20        0        2  1.28e+03        vxyz Transportation						     |	  139        0        0      626        20        0        2  1.28e+03 PhysVol_PixElmts Transportation
+  140        0        0      628        20        0        2  1.28e+03        vxyz Transportation						     |	  140        0        0      628        20        0        2  1.28e+03 PhysVol_PixElmts Transportation
+  141        0        0      630        20        0        2  1.28e+03        vxyz Transportation						     |	  141        0        0      630        20        0        2  1.28e+03 PhysVol_PixElmts Transportation
+  142        0        0      632        20        0        2  1.28e+03        vxyz Transportation						     |	  142        0        0      632        20        0        2  1.28e+03 PhysVol_PixElmts Transportation
+  143        0        0      634        20        0        2  1.28e+03        vxyz Transportation						     |	  143        0        0      634        20        0        2  1.28e+03 PhysVol_PixElmts Transportation
+  144        0        0      636        20        0        2  1.29e+03        vxyz Transportation						     |	  144        0        0      636        20        0        2  1.29e+03 PhysVol_PixElmts Transportation
+  145        0        0      638        20        0        2  1.29e+03        vxyz Transportation						     |	  145        0        0      638        20        0        2  1.29e+03 PhysVol_PixElmts Transportation
+  146        0        0      640        20        0        2  1.29e+03        vxyz Transportation						     |	  146        0        0      640        20        0        2  1.29e+03 PhysVol_PixElmts Transportation
+  147        0        0      642        20        0        2  1.29e+03        vxyz Transportation						     |	  147        0        0      642        20        0        2  1.29e+03 PhysVol_PixElmts Transportation
+  148        0        0      644        20        0        2  1.29e+03        vxyz Transportation						     |	  148        0        0      644        20        0        2  1.29e+03 PhysVol_PixElmts Transportation
+  149        0        0      646        20        0        2   1.3e+03        vxyz Transportation						     |	  149        0        0      646        20        0        2   1.3e+03 PhysVol_PixElmts Transportation
+  150        0        0      648        20        0        2   1.3e+03        vxyz Transportation						     |	  150        0        0      648        20        0        2   1.3e+03 PhysVol_PixElmts Transportation
+  151        0        0      650        20        0        2   1.3e+03       world Transportation						     |	  151        0        0      650        20        0        2   1.3e+03 PhysVol_World Transportation
+  152        0        0      750        20        0      100   1.4e+03  OutOfWorld Transportation							  152        0        0      750        20        0      100   1.4e+03  OutOfWorld Transportation
+																		     <
